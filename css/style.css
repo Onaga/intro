@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+	margin: 0 auto;
+	width: 99%;
+	height: 99%;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 99%;
+	height: 99%;
+}
+
+
+header{
+	background-color: #f6f6f6;
+	width: 100%;
+	height: 6%;
+}
+
+.hero{
+	width: 15%;
+	height: 40%;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: white;]
+
+}
+#drop{
+	width: 15%;
+	height: 50%;
+	background-color: white;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 8px;
+	border-color: white;
+	
+}
+#heroImages{
+	width: 100%;
+	height: 70%;
+	margin: 0 auto;
+	
+	text-align: center;
+}
+
+.heroImages img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+
+}
+
+#heroImages img:hover{
+
+	cursor: pointer;
+}
+
+#heroImages p{
+	text-align: center;
+	font-size: 20px;
+	font-family: FACEBOLF;
+	color: white
+}
+@font-face {
+    font-family: FACEBOLF;
+    src: url(fonts/FACEBOLF.OTF);
+}
+h1{
+	font-family: FACEBOLF;
+	vertical-align: text-bottom;
+	text-align: center;
+}
+#p2{
+	float: right;
+	margin: 1%;
+	font-size: 105%;
+}
+#p1{
+	float: left;
+	margin: 0%;
+	font-size: 200%;
+}

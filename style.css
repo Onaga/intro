@@ -1,0 +1,79 @@
+body{
+	background-color: white;
+	margin: 0 auto;
+	width: 99%;
+	height: 99%;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 99%;
+	height: 99%;
+}
+#hero_help_dialog{
+	width: 200px;
+}
+#modal{
+	width: 30%;
+	height: 20%;
+	background-color: green;
+}
+header{
+	background-color: red;
+	width: 100%;
+	height: 10%;
+}
+footer{
+	background-color: silver;
+	width: 100%;
+	height: 10%;
+}
+.hero{
+	width: 15%;
+	height: 40%;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #000032;
+}
+#drop{
+	width: 20%;
+	height: 50%;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #000032;
+}
+#heroImages{
+	width: 100%;
+	height: 100%;
+	margin-left: 8%;
+	margin-top: 5%;
+	
+}
+.heroImages img{
+	
+}
+
+#heroImages img:hover{
+	border-style: solid;
+	border-color: #DAA520;
+	border-radius: 20px;
+	cursor: pointer;
+}
+#heroImages p{
+	text-align: center;
+	margin-left: -240px;
+	font-size: 30px;
+	font-family: FACEBOLF;
+}
+@font-face {
+    font-family: FACEBOLF;
+    src: url(FACEBOLF.OTF);
+}
+h1{
+	font-family: FACEBOLF;
+	vertical-align: text-bottom;
+	text-align: center;
+}
